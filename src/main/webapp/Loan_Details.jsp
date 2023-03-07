@@ -57,34 +57,56 @@
         </nav>
         
         <div class="section">   
-            <h5 style="color: rgb(4, 2, 58); font-weight: bold; margin-left: 2rem;">find informations</h5>       
-            <div>
-                <div class="row">                                
-                    <form Action="Fetch_User_Servlet"  Method="post" style="margin-left:9rem;margin-top:1rem;width:220px">                      
-                        <input class="footbtn2" type="submit" value="User Details">
-                    </form>
-                    <img src="./assets/images/o1.png" style="height: 7%; width: 7%;border-radius: 30%;margin-top:1rem;">
-                </div>
-                <div class="row">                                
-                    <form Action="Fetch_Loan_Servlet"  Method="post" style="margin-left:9rem;margin-top:1rem;width:220px">                      
-                        <input class="footbtn2" type="submit" value="Loan Details">
-                    </form>
-                    <img src="./assets/images/o2.jpg" style="height:50px; width: 7%;border-radius: 30%;margin-top:1rem;">
-                </div>
-                <div class="row">                                
-                    <div class="navbar-nav" style="background-color: #024811; margin-left: 10rem; border-radius: 25px;width:200px;margin-top:1rem;">
-                        <a class="nav-link" href="HomePage.jsp" style="color:white; font-weight: bold;font-size:20px;margin-left: 2rem">Product Details</a>
-                    </div>
-                    <img src="./assets/images/o3.jpg" style="height:50px; width: 7%;border-radius: 30%;margin-top:1rem;">
-                </div>
-                                
-                <div style="margin-left:30rem">
-                <img src="./assets/images/o5.jpeg" style="height: 20%; width: 20%; margin-top:2rem;border-radius:10px">
-                <img src="./assets/images/o2.jpg" style="height: 20%; width: 20%; margin-top:2rem;border-radius:10px;margin-left:0.5rem">
-                <img src="./assets/images/o3.jpg" style="height: 20%; width: 20%; margin-top:2rem;border-radius:10px;margin-left:0.5rem">
-                <img src="./assets/images/s1.webp" style="height: 20%; width: 30%; margin-top:2rem;border-radius:10px;margin-left:0.5rem">
-                </div>              
-            </div>                                                                                 
+            <h5 style="color: blue; font-weight: bold; margin-left: 2rem;">LOAN DETAILS</h5> 
+             
+             <div style="margin-top:3rem">
+            <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">                
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">Full Name</a> 
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">Customer ID</a> 
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">Date of Birth</a> 
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">Address</a>  
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">Product category</a> 
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">Brand</a> 
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">Price</a> 
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">No Products</a>                                       
+            </div>            
+            </nav>
+            <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">                
+                <a class="navbar-brand" href="#" style="color: black;">Check</a> 
+                <a class="navbar-brand" href="#" style="color: black;">C01</a> 
+                <a class="navbar-brand" href="#" style="color: black;">12/12/12</a> 
+                <a class="navbar-brand" href="#" style="color: black;">Colombo</a>   
+                <a class="navbar-brand" href="#" style="color: black;">Phone</a>  
+                <a class="navbar-brand" href="#" style="color: black;">M01</a>  
+                <a class="navbar-brand" href="#" style="color: black;">40 000/</a> 
+                <a class="navbar-brand" href="#" style="color: black;">1</a>                             
+            </div>            
+            </nav>  
+            
+            <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">                
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">Total Amount</a> 
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">Advance Amount</a> 
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">Balance Amount</a> 
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">No Instalment</a>  
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">Amount Instalment</a> 
+                <a class="navbar-brand" href="#" style="color: black; font-weight: bold;">Date Instalment</a>                                                      
+            </div>            
+            </nav>
+            <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">                
+                <a class="navbar-brand" href="#" style="color: black;">40 000/</a> 
+                <a class="navbar-brand" href="#" style="color: black;">30 000/</a> 
+                <a class="navbar-brand" href="#" style="color: black;">10 000/</a> 
+                <a class="navbar-brand" href="#" style="color: black;">2</a>   
+                <a class="navbar-brand" href="#" style="color: black;">5000/</a>  
+                <a class="navbar-brand" href="#" style="color: black;">30</a>                             
+            </div>            
+            </nav>  
+                                                                                              
+        </div>
         </div>
         
     </div>
@@ -128,18 +150,6 @@
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
-}
-.footbtn2{
-	margin:5px;
-	padding:8px;
-	width:200px;
-	height:50px;
-	border-radius: 25px;
-	font-size:20px;
-	background-color:#024811;
-	color:white;
-	cursor: pointer;
-	font-weight: bold
 }
 </style>
 

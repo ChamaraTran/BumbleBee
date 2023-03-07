@@ -5,18 +5,18 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Bumble Bee</title> 
+<title>Bumble Bee</title>
 </head>
 <body>
 <div class="body">
 
-<div><h1 class="head">Admin Login</h1></div>
+<div><h1 class="head">User Login</h1></div>
 
-<form action="Admin_Login_Servlet" method="post">
+<form action="User_Login_Servlet" method="post">
 
 <div class="logrow">
-<label class="ntag">Admin ID:</label>
-<input class="loginput" type="text" name="admin_id"><br>
+<label class="ntag">Username:</label>
+<input class="loginput" type="text" name="username"><br>
 </div>
 <div class="logrow">
 <label class="ntag">Password:</label>
@@ -28,11 +28,19 @@
 </div>
 </form>
 
+<div class="last">
+<label>Have you account?</label>
+<a href="Register.jsp" class="lbl" style="cursor: pointer;">Create account</a>
+</div>
+</div>
+
 </div>
 </body>
 
+
 <style>
-@charset "ISO-8859-1";
+
+/* @charset "ISO-8859-1"; */
 
 body{
 	background-color:white;
@@ -96,6 +104,9 @@ body{
 .lbl{
 	color:blue;
 	font-size:18px
+}
+a{
+text-decoration: none;
 }
 </style>
 </html>
